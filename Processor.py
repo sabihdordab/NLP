@@ -38,17 +38,23 @@ class TextProcessor:
     def tokenize(self):
         tokens1 = self.tokenize_method1(self.text)
         # tokens2 = self.tokenize_method2(self.text)
-        self.write_tokens_to_file(tokens1, 'Result/tokens_method1.txt')
+        self.write_tokens_to_file(tokens1, 'Result/TextProcessing/tokens_method1.txt')
         # self.write_tokens_to_file(tokens2, 'Result/tokens_method2.txt')
         return tokens1
 
-
+    def to_lowercase(self):
+        lowercase_text = self.text.lower()
+        with open('Result/TextProcessing/lowercase_text.txt', 'w', encoding='utf-8') as file:
+            file.write(lowercase_text)
+        return lowercase_text
+    
     def menu(self):
         while True:
             print("\nMenu:")
             print("1. Load Text")
             print("2. Tokenize")
-            print("3. Exit")
+            print("3. Convert to Lowercase")
+            print("4. Exit")
 
             choice = input("Enter your choice: ")
 
@@ -59,13 +65,13 @@ class TextProcessor:
                     print("Text loaded successfully.")
                 else:
                     print("Failed to load text.")
+                    continue
             elif choice == '2':
-                if self.text:
-                    self.tokenize()
-                    print("Tokens generated and saved.")
-                else:
-                    print("No text loaded. Please load text first.")
+                self.tokenize()
             elif choice == '3':
+                self.to_lowercase()
+                print("Text converted to lowercase and saved.")
+            elif choice == '4':
                 print("Exiting...")
                 break
             else:
