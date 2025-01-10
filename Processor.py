@@ -48,13 +48,34 @@ class TextProcessor:
             file.write(lowercase_text)
         return lowercase_text
     
+
+    def count_tokens(self):
+        with open('./Result/TextProcessing/tokens_method1.txt', 'r', encoding='utf-8') as file:
+            tokens = file.read().splitlines()
+
+        token_counts = {}
+        for t in tokens:
+            if t in token_counts:
+                token_counts[t] += 1
+            else:
+                token_counts[t] = 1
+
+    
+        with open('./Result/TextProcessing/tokens-count.txt', 'w', encoding='utf-8') as output:
+            for token, count in token_counts.items():
+                output.write(f'{token}: {count}\n')
+
+        return token_counts
+    
+
     def menu(self):
         while True:
             print("\nMenu:")
             print("1. Load Text")
             print("2. Tokenize")
             print("3. Convert to Lowercase")
-            print("4. Exit")
+            print("4. Count Tokens")
+            print("[anythingElse]. Exit")
 
             choice = input("Enter your choice: ")
 
@@ -72,10 +93,10 @@ class TextProcessor:
                 self.to_lowercase()
                 print("Text converted to lowercase and saved.")
             elif choice == '4':
+                self.count_tokens()
+            else:
                 print("Exiting...")
                 break
-            else:
-                print("Invalid choice. Please try again.")
 
 
 p = TextProcessor()
