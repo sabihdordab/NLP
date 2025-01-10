@@ -1,4 +1,5 @@
 import re
+from nltk.stem import PorterStemmer
 
 class TextProcessor:
     def __init__(self):
@@ -67,6 +68,26 @@ class TextProcessor:
 
         return token_counts
     
+    def stemming(self):
+        porter_stemmer = PorterStemmer()
+        with open('./Result/TextProcessing/tokens-count.txt', 'r', encoding='utf-8') as file:
+            tokens = file.read().splitlines()
+
+        stemmed_tokens = []
+        for line in tokens:
+            token = line.split(':')[0]
+            stemmed_token = porter_stemmer.stem(token)
+            stemmed_tokens.append(stemmed_token)
+
+    
+        with open('./Result/TextProcessing/stemming.txt', 'w', encoding='utf-8') as output_file:
+            for token in stemmed_tokens:
+                output_file.write(f"{token}\n")
+
+        return stemmed_tokens
+
+
+
 
     def menu(self):
         while True:
@@ -75,6 +96,7 @@ class TextProcessor:
             print("2. Tokenize")
             print("3. Convert to Lowercase")
             print("4. Count Tokens")
+            print("5. Stemming")
             print("[anythingElse]. Exit")
 
             choice = input("Enter your choice: ")
@@ -94,6 +116,8 @@ class TextProcessor:
                 print("Text converted to lowercase and saved.")
             elif choice == '4':
                 self.count_tokens()
+            elif choice == '5':
+                self.stemming() 
             else:
                 print("Exiting...")
                 break
