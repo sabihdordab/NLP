@@ -1,0 +1,189 @@
+{
+  "data480.txt": {
+    "predicted_class": "Comp.graphics",
+    "actual_class": "Comp.graphics",
+    "probabilities": {
+      "Comp.graphics": -2512.5867746497734,
+      "rec.autos": -2557.646128150389,
+      "sci.electronics": -2554.691199238037,
+      "soc.religion.christian": -2605.607102286623,
+      "talk.politics.mideast": -2675.8975146618814
+    }
+  },
+  "data488.txt": {
+    "predicted_class": "rec.autos",
+    "actual_class": "Comp.graphics",
+    "probabilities": {
+      "Comp.graphics": -3176.0816482482624,
+      "rec.autos": -3096.5229702798647,
+      "sci.electronics": -3115.6221851262644,
+      "soc.religion.christian": -3115.8219108657568,
+      "talk.politics.mideast": -3120.988063075626
+    }
+  },
+  "data3982.txt": {
+    "predicted_class": "rec.autos",
+    "actual_class": "rec.autos",
+    "probabilities": {
+      "Comp.graphics": -3413.3448291861,
+      "rec.autos": -2993.0783605088677,
+      "sci.electronics": -3264.321699810434,
+      "soc.religion.christian": -3239.0099819910315,
+      "talk.politics.mideast": -3221.5256887954642
+    }
+  },
+  "data3992.txt": {
+    "predicted_class": "rec.autos",
+    "actual_class": "rec.autos",
+    "probabilities": {
+      "Comp.graphics": -4712.1086277469685,
+      "rec.autos": -4246.020614391529,
+      "sci.electronics": -4491.073593752574,
+      "soc.religion.christian": -4559.1099847222085,
+      "talk.politics.mideast": -4597.923100019476
+    }
+  },
+  "data4011.txt": {
+    "predicted_class": "rec.autos",
+    "actual_class": "rec.autos",
+    "probabilities": {
+      "Comp.graphics": -5456.15491859079,
+      "rec.autos": -5172.228400827437,
+      "sci.electronics": -5238.672474178544,
+      "soc.religion.christian": -5292.7781588076605,
+      "talk.politics.mideast": -5259.307281946746
+    }
+  },
+  "data6990.txt": {
+    "predicted_class": "sci.electronics",
+    "actual_class": "sci.electronics",
+    "probabilities": {
+      "Comp.graphics": -4965.857342209982,
+      "rec.autos": -4773.096890117479,
+      "sci.electronics": -4743.345865035042,
+      "soc.religion.christian": -4807.477353860705,
+      "talk.politics.mideast": -4891.364470895469
+    }
+  },
+  "data6993.txt": {
+    "predicted_class": "rec.autos",
+    "actual_class": "sci.electronics",
+    "probabilities": {
+      "Comp.graphics": -3940.078912244195,
+      "rec.autos": -3737.4983356605985,
+      "sci.electronics": -3739.2000849228334,
+      "soc.religion.christian": -3824.686746616658,
+      "talk.politics.mideast": -3841.487934253895
+    }
+  },
+  "data7016.txt": {
+    "predicted_class": "sci.electronics",
+    "actual_class": "sci.electronics",
+    "probabilities": {
+      "Comp.graphics": -3298.0421954922476,
+      "rec.autos": -3163.203386331972,
+      "sci.electronics": -3152.401689809996,
+      "soc.religion.christian": -3188.774815713506,
+      "talk.politics.mideast": -3194.0501500832597
+    }
+  },
+  "data8750.txt": {
+    "predicted_class": "soc.religion.christian",
+    "actual_class": "soc.religion.christian",
+    "probabilities": {
+      "Comp.graphics": -22477.03356106582,
+      "rec.autos": -21468.151905667975,
+      "sci.electronics": -21727.004507649042,
+      "soc.religion.christian": -19784.222662791413,
+      "talk.politics.mideast": -20746.177016671718
+    }
+  },
+  "data8752.txt": {
+    "predicted_class": "soc.religion.christian",
+    "actual_class": "soc.religion.christian",
+    "probabilities": {
+      "Comp.graphics": -3512.5881610966785,
+      "rec.autos": -3316.2247942901654,
+      "sci.electronics": -3352.252564679447,
+      "soc.religion.christian": -3175.0800863663953,
+      "talk.politics.mideast": -3206.074951222081
+    }
+  },
+  "data8762.txt": {
+    "predicted_class": "soc.religion.christian",
+    "actual_class": "soc.religion.christian",
+    "probabilities": {
+      "Comp.graphics": -6670.951779480929,
+      "rec.autos": -6372.21324018822,
+      "sci.electronics": -6454.539649006649,
+      "soc.religion.christian": -6070.661502576533,
+      "talk.politics.mideast": -6311.558581086625
+    }
+  },
+  "data8770.txt": {
+    "predicted_class": "soc.religion.christian",
+    "actual_class": "soc.religion.christian",
+    "probabilities": {
+      "Comp.graphics": -7713.892113311239,
+      "rec.autos": -7317.689697280907,
+      "sci.electronics": -7302.780400856733,
+      "soc.religion.christian": -7111.851747727204,
+      "talk.politics.mideast": -7251.91353924022
+    }
+  },
+  "data9891.txt": {
+    "predicted_class": "talk.politics.mideast",
+    "actual_class": "talk.politics.mideast",
+    "probabilities": {
+      "Comp.graphics": -24823.214302556575,
+      "rec.autos": -24094.882800594678,
+      "sci.electronics": -24279.836728184087,
+      "soc.religion.christian": -23732.3323574465,
+      "talk.politics.mideast": -22276.25833015381
+    }
+  },
+  "data9899.txt": {
+    "predicted_class": "talk.politics.mideast",
+    "actual_class": "talk.politics.mideast",
+    "probabilities": {
+      "Comp.graphics": -10816.882611399626,
+      "rec.autos": -10188.707186746946,
+      "sci.electronics": -10306.51861176754,
+      "soc.religion.christian": -9923.549339479752,
+      "talk.politics.mideast": -9643.908069786712
+    }
+  },
+  "data9905.txt": {
+    "predicted_class": "talk.politics.mideast",
+    "actual_class": "talk.politics.mideast",
+    "probabilities": {
+      "Comp.graphics": -13374.608344975552,
+      "rec.autos": -12774.088342708455,
+      "sci.electronics": -12992.110490292866,
+      "soc.religion.christian": -12626.938304507788,
+      "talk.politics.mideast": -11935.865806262227
+    }
+  },
+  "data9906.txt": {
+    "predicted_class": "talk.politics.mideast",
+    "actual_class": "talk.politics.mideast",
+    "probabilities": {
+      "Comp.graphics": -5953.443668761752,
+      "rec.autos": -5814.185812488928,
+      "sci.electronics": -5887.100137826195,
+      "soc.religion.christian": -5754.468860228277,
+      "talk.politics.mideast": -5345.839078306316
+    }
+  },
+  "data9910.txt": {
+    "predicted_class": "talk.politics.mideast",
+    "actual_class": "talk.politics.mideast",
+    "probabilities": {
+      "Comp.graphics": -11257.866944364587,
+      "rec.autos": -10660.738271670789,
+      "sci.electronics": -10811.233694576818,
+      "soc.religion.christian": -10400.630782663453,
+      "talk.politics.mideast": -10035.626315770702
+    }
+  }
+}
