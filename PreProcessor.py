@@ -96,7 +96,7 @@ class TextProcessor:
         print(f"Token counting complete. Found {len(token_counts)} unique tokens.")
         return token_counts
 
-        return token_counts
+        
     
     def stemming(self):
         porter_stemmer = PorterStemmer()

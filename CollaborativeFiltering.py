@@ -118,6 +118,3 @@ class SongRecommendationSystem:
         except ValueError:
             print("Please enter valid numeric values.")
 
-if __name__ == "__main__":
-    recommender = SongRecommendationSystem()
-    recommender.run()
