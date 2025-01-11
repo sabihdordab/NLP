@@ -125,4 +125,7 @@ class TextClassifier:
         
         accuracy = correct_predictions / total_tests
         print(f"Accuracy: {accuracy:.2%}")
-
+    def run(self):
+        self.load_dataset()
+        self.save_statistics()
+        self.classify_test_files()
